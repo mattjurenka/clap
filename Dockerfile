@@ -8,7 +8,7 @@ RUN apt-get install -y cmake clang
 RUN cargo install cargo-fuzz
 
 ## Add source code to the build stage.
-ADD . /radeco/
+ADD . /clap/
 
 WORKDIR /clap/fuzz/
 RUN cargo fuzz build
