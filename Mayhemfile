@@ -1,0 +1,6 @@
+project: clap
+target: parse-args-one
+duration: 90
+
+cmds:
+    - cmd: /parse_args_one
